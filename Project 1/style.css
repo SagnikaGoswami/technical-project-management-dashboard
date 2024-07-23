@@ -39,8 +39,6 @@ header .logo {
     left: 83px;
     gap: 0px;
     opacity: 0px;
-    /* background-color: black; */
-    border: 2px solid red;
 }
 
 header .logo img {
@@ -50,7 +48,7 @@ header .logo img {
 
 
 
-header .icon{
+header .icon {
     position: absolute;
     border-radius: 50%;
     display: flex;
@@ -67,4 +65,29 @@ header .icon{
 
 header .home-icon {
     left: 1133px;
+}
+
+header .tools-icon {
+    left: 1186px;
+}
+
+header .notify-icon {
+    position: absolute;
+    left: 1237px;
+    background-color: #fff;
+}
+
+header .notify-icon .image2 {
+    position: absolute;
+    width: 7.06px;
+    height: 7.59px;
+    right: 5px;
+}
+
+header .profile-icon {
+    width: 37px;
+    height: 37px;
+    top: 28px;
+    left: 1291px;
+    background-color: transparent;
 }
