@@ -28,6 +28,8 @@ header {
     gap: 0px;
     opacity: 0px;
     /* padding: 0 20vw; */
+    display: flex;
+    
 }
 
 header .logo {
