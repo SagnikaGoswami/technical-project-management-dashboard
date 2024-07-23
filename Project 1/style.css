@@ -1,0 +1,99 @@
+:root {
+    --nav-color: #3683F0;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .wrapper {
+    width: 90vw;
+    border: 2px solid black;
+    margin: auto;
+}
+
+/* nav-logo */
+header .wrapper nav {
+    height: 100%;
+    width: 100%;
+    border: 2px solid pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .wrapper .logo {
+    width: 311px;
+    height: 49px;
+    top: 20px;
+    left: 83px;
+    gap: 0px;
+    opacity: 0px;
+    object-fit: cover;
+    border: 2px solid yellow;
+}
+
+header .wrapper .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* right */
+
+.right {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right .one {
+    width: 30px;
+    height: 32.37px;
+    top: 33px;
+    left: 1133px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--nav-color);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .two {
+    width: 30px;
+    height: 32.37px;
+    top: 33px;
+    left: 1186px;
+    gap: 0px;
+    opacity: 0px;
+
+    background-color: var(--nav-color);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .three {
+    width: 31.15px;
+    height: 33.47px;
+    top: 31.43px;
+    left: 1237px;
+    gap: 0px;
+    opacity: 0px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
