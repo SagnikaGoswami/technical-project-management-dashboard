@@ -1,6 +1,7 @@
 :root {
     --header-color: #F0F0F0;
     --icon-color: #3683F0;
+    --left-panel-color: #FDFDFD;
 
 }
 
@@ -13,13 +14,10 @@
 
 html,
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
-body {
-    background-color: crimson;
-}
 
 header {
     position: absolute;
@@ -29,6 +27,7 @@ header {
     width: 100vw;
     gap: 0px;
     opacity: 0px;
+    /* padding: 0 20vw; */
 }
 
 header .logo {
@@ -91,3 +90,53 @@ header .profile-icon {
     left: 1291px;
     background-color: transparent;
 }
+
+header .menu-dot {
+    position: absolute;
+    border-radius: 50%;
+    width: 3.03px;
+    height: 2.99px;
+    left: 1354px;
+    /* right: 1354px; */
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--icon-color);
+}
+
+
+header .menu-dot1 {
+    top: 41px;
+}
+
+header .menu-dot2 {
+    top: 46.98px;
+}
+
+header .menu-dot3 {
+top: 52.97px;
+}
+
+
+/* main */
+
+main{
+    position: absolute;
+}
+
+main .left{
+    position: absolute;
+    width: 132px;
+height: 742px;
+top: 90px;
+gap: 0px;
+opacity: 0px;
+/* border: 1px solid red; */
+}
+
+
+main .left .box1{
+height: 50px;
+background-color: #000000;
+border-radius: 0px 22px 0px 0px;
+}
+
