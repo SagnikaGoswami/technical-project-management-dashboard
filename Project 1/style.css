@@ -15,11 +15,11 @@
 html,
 body {
     height: 100%;
-    width: 100%;
+    max-width: 100%;
 }
 
 
-header {
+/* header {
     position: absolute;
     top: 0;
     background-color: var(--header-color);
@@ -27,9 +27,6 @@ header {
     width: 100vw;
     gap: 0px;
     opacity: 0px;
-    /* padding: 0 20vw; */
-    display: flex;
-    
 }
 
 header .logo {
@@ -99,7 +96,6 @@ header .menu-dot {
     width: 3.03px;
     height: 2.99px;
     left: 1354px;
-    /* right: 1354px; */
     gap: 0px;
     opacity: 0px;
     background-color: var(--icon-color);
@@ -115,30 +111,197 @@ header .menu-dot2 {
 }
 
 header .menu-dot3 {
-top: 52.97px;
+    top: 52.97px;
+} */
+
+
+
+
+
+
+.heading{
+    height: 90px;
+    width: 100vw;
+    background-color: aqua;
 }
+
+
+.heading .logo {
+    position: absolute;
+    width: 311px;
+    height: 49px;
+    top: 20px;
+    left: 83px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: pink;
+}
+
+.heading .icons{
+    position: absolute;
+    top: 20px;
+    right: 83px;
+    height: 49px;
+    width: 40%;
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading .icons .icon{
+    /* position: absolute; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 32.37px;
+    /* top: 0px; */
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--icon-color);
+
+    /* left: 0; */
+}
+.heading .icons .notify{
+    position: relative;
+    background-color: transparent;
+    /* display: flex;
+    justify-content: center; */
+    /* border: 2px solid yellow; */
+    height: 36px;
+    width: 36px;
+}
+.heading .icons .notify .image2{
+    position: absolute;
+    top: 8px;
+    right: 9px;
+}
+
+
+
+
+
+/* .heading .icons{
+    position: absolute;
+    top: 33px;
+    left: 1133px;
+    height: 49px;
+    width: 40%;
+    background-color: yellow;
+}
+
+.heading .icon {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 32.37px;
+    top: 33px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--icon-color);
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading .home-icon {
+    left: 1133px;
+    top: 0;
+    left: 0;
+}
+
+.heading .tools-icon {
+    left: 1186px;
+}
+
+.heading .notify-icon {
+    position: absolute;
+    left: 1237px;
+    background-color: #fff;
+}
+
+.heading .notify-icon .image2 {
+    position: absolute;
+    width: 7.06px;
+    height: 7.59px;
+    right: 5px;
+}
+
+.heading .profile-icon {
+    width: 37px;
+    height: 37px;
+    top: 28px;
+    left: 1291px;
+    background-color: transparent;
+}
+
+.heading .menu-dot {
+    position: absolute;
+    border-radius: 50%;
+    width: 3.03px;
+    height: 2.99px;
+    left: 1354px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--icon-color);
+}
+
+
+.heading .menu-dot1 {
+    top: 41px;
+}
+
+.heading .menu-dot2 {
+    top: 46.98px;
+}
+
+.heading .menu-dot3 {
+    top: 52.97px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* main */
 
-main{
-    position: absolute;
+/* main {
+    position: relative;
+    top: 180px;
+    background-color: aqua;
+    height: calc(100vh - 90px);
+    width: 100%;
 }
 
-main .left{
+main .left {
     position: absolute;
     width: 132px;
-height: 742px;
-top: 90px;
-gap: 0px;
-opacity: 0px;
-/* border: 1px solid red; */
+    height: 742px;
+    top: 0;
+    left: 0;
+    gap: 0px;
+    opacity: 0px;
 }
 
 
-main .left .box1{
-height: 50px;
-background-color: #000000;
-border-radius: 0px 22px 0px 0px;
-}
-
+main .left .box1 {
+    height: 50px;
+    background-color: #000000;
+    border-radius: 0px 22px 0px 0px;
+} */
