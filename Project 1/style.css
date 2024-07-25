@@ -23,29 +23,30 @@ body {
 
 /* header */
 header {
+    position: relative;
     height: 90px;
     /* width: 100vw; */
     background-color: var(--header-color);
 }
 
-
 header .logo {
-    position: absolute;
+    position: relative;
     width: 311px;
     height: 49px;
     top: 20px;
     left: 83px;
     gap: 0px;
     opacity: 0px;
+    border: 2px solid yellow;
 }
 
 header .logo img {
     height: 100%;
     width: 100%;
+    border: 2px solid red;
 }
 
-
-header .icons {
+/* header .icons {
     position: absolute;
     top: 20px;
     right: 83px;
@@ -55,9 +56,9 @@ header .icons {
     align-items: center;
     justify-content: flex-end;
 
-}
+} */
 
-header .icons .icon {
+/* header .icons .icon {
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -65,7 +66,7 @@ header .icons .icon {
 
     width: 30px;
     height: 32.37px;
-    /* top: 0px; */
+    top: 0px;
     gap: 0px;
     opacity: 0px;
     background-color: var(--icon-color);
@@ -75,8 +76,28 @@ header .icons .icon {
 header .icons .home {
     margin-left: 0;
     left: 0;
+} */
+
+header .home{
+    position: relative;
+    width: 30px;
+height: 32.37px;
+top: 33px;
+left: 1133px;
+gap: 0px;
+opacity: 0px;
+border: 2px solid red;
 }
 
+header .home img{
+    width: 30px;
+height: 32.37px;
+top: 33px;
+left: 1133px;
+gap: 0px;
+opacity: 0px;
+border: 2px solid yellow;
+}
 
 header .icons .notify {
     position: relative;
@@ -116,7 +137,7 @@ header .icons .dots .dot {
 
 
 /* main */
-main{
+main {
     position: relative;
     /* height: calc(100vh - 90px); */
     /* width: 100vw; */
@@ -124,77 +145,77 @@ main{
     left: 0;
 }
 
-main .left{
+main .left {
     position: absolute;
     width: 132px;
-height: 742px;
-left: 0;
-/* width: 20%;
+    height: 742px;
+    left: 0;
+    /* width: 20%;
 height: 80%; */
-/* top: 140px; */
-gap: 0px;
-border-radius: 0px 0px 20px 20px;
-opacity: 0px; 
-background-color: var(--left-panel-color);
-/* border: 2px solid red; */
-box-shadow: 0px 1px 1px 0px #00000040;
+    /* top: 140px; */
+    gap: 0px;
+    border-radius: 0px 0px 20px 20px;
+    opacity: 0px;
+    background-color: var(--left-panel-color);
+    /* border: 2px solid red; */
+    box-shadow: 0px 1px 1px 0px #00000040;
 
 }
 
-main .left .box1{
+main .left .box1 {
     /* position: absolute; */
     width: 132px;
-height: 50px;
-top: 0;
-gap: 0px;
-border-radius: 0px 22px 0px 0px;
-opacity: 0px;
-background-color: var(--black-color);
+    height: 50px;
+    top: 0;
+    gap: 0px;
+    border-radius: 0px 22px 0px 0px;
+    opacity: 0px;
+    background-color: var(--black-color);
 
-display: flex;
-align-items: center;
-border: 2px solid red;
-justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    justify-content: flex-end;
 
 }
 
-main .left .box1 img{
-/* position: absolute; */
-/* position: relative; */
+main .left .box1 img {
+    /* position: absolute; */
+    /* position: relative; */
     width: 39px;
-height: 29px;
-top: 25px;
-left: 81px;
-gap: 0px;
-opacity: 0px;
-margin-right: calc(132px - 101px);
-margin-right: 81px;
-margin-right: calc(132px - 110px);
-margin-right: 10px;
+    height: 29px;
+    top: 25px;
+    left: 81px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: calc(132px - 101px);
+    margin-right: 81px;
+    margin-right: calc(132px - 110px);
+    margin-right: 10px;
 }
 
-main .left .box2{
+main .left .box2 {
     /* position: absolute; */
     position: relative;
     width: 132px;
-height: 692px;
-top: 0px;
-gap: 0px;
-border-radius: 0px 0px 20px 20px;
-opacity: 0px;
-border: 2px solid yellow;
+    height: 692px;
+    top: 0px;
+    gap: 0px;
+    border-radius: 0px 0px 20px 20px;
+    opacity: 0px;
+    border: 2px solid yellow;
 }
 
 
-main .left .box2 .inner-box{
+main .left .box2 .inner-box {
     position: relative;
     width: 68px;
-height: 68px;
-top: 166px;
-left: 32px;
-gap: 0px;
-border-radius: 20px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-border: 2px solid red;
+    height: 68px;
+    top: 166px;
+    left: 32px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid red;
 }
