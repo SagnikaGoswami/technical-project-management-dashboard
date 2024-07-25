@@ -1,4 +1,4 @@
-:root{
+:root {
     --icon-color: #3683F0;
 
 }
@@ -43,27 +43,36 @@ header .logo img {
 
 /* icons */
 
-header .icon{
+header .icon {
     position: absolute;
+    top: 33px;
     background-color: var(--icon-color);
     border-radius: 50%;
+    width: 30px;
+    height: 32.37px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header .home{
-    position: absolute;
-    width: 30px;
-height: 32.37px;
-top: 33px;
-left: 1133px;
-/* border: 2px solid red; */
-background-color: var(--icon-color);
-border-radius: 50%;
+/* home-icon */
+header .home {
+    left: 1133px;
+    /* border: 2px solid red; */
 }
 
-header .home img{
-    width: 17px;
-height: 18.34px;
+/* tools-icon */
+header .tools{
+left: 1186px;
+}
+
+header .notify{
+    position: absolute;
+    width: 30.27px;
+height: 32.52px;
+top: 31.91px;
+left: 1236.44px;
+gap: 0px;
+opacity: 0px;
+border: 2px solid red;
 }
