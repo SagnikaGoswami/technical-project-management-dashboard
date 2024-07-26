@@ -19,6 +19,7 @@ body {
     background-color: pink;
 }
 
+/* header [nav-bar] */
 header {
     position: relative;
     height: 90px;
@@ -26,6 +27,7 @@ header {
     background-color: white;
 }
 
+/* nav-logo */
 header .logo {
     position: relative;
     width: 311px;
@@ -41,8 +43,7 @@ header .logo img {
     width: 100%;
 }
 
-/* icons */
-
+/* nav-icons */
 header .icon {
     position: absolute;
     top: 33px;
@@ -62,17 +63,36 @@ header .home {
 }
 
 /* tools-icon */
-header .tools{
-left: 1186px;
+header .tools {
+    left: 1186px;
 }
 
-header .notify{
-    position: absolute;
+/* notification-icon */
+header .notify {
+    /* position: absolute; */
     width: 30.27px;
-height: 32.52px;
-top: 31.91px;
-left: 1236.44px;
-gap: 0px;
-opacity: 0px;
-border: 2px solid red;
+    height: 32.52px;
+    top: 31.91px;
+    left: 1236.44px;
+    border: 2px solid red;
+    background-color: transparent;
 }
+
+header .notify .imgage1{
+    /* position: relative;
+    width: 31.15px;
+height: 33.47px;
+top: 31.43px;
+left: 1237px; */
+height: 100%;
+width: 100%;
+}
+
+header .notify .image2{
+    position: relative;
+    width: 7.06px;
+height: 7.59px;
+top: 38.41px;
+left: 1255.6px;
+}
+
