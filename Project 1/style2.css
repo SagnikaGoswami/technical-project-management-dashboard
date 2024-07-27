@@ -220,7 +220,7 @@ main .heading h2 {
 
 main .sub-heading {
     position: absolute;
-    width: calc(100% - 187px - 95px);
+    width: calc(100% - 187px - 100px);
     height: 135px;
     top: 187px;
     left: 187px;
