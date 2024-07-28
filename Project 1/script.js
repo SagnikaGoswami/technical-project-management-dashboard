@@ -11,7 +11,7 @@ for(let i=0; i<4; i++)
 main.innerHTML = htmlString
 
 let htmlString2 = ""
-const title = document.querySelector('.title')
+// const title = document.querySelector('.title')
 
 for(let i=0; i<4; i++)
 {
@@ -19,8 +19,10 @@ for(let i=0; i<4; i++)
     main.children[i].style.width = "47%"
     main.children[i].style.backgroundColor = "#FDFDFD"
     main.children[i].style.border = "2px solid red"
-    main.childre[i].className = "assets"
+    // main.childre[i].className = "assets"
 }
+
+console.log(main.children);
 
 for(let i=0; i<4; i++)
 {
@@ -29,12 +31,12 @@ for(let i=0; i<4; i++)
 
 
 
-title.style.backgroundColor = "aqua"
+// title.style.backgroundColor = "aqua"
 
-main.children[1].className = "asset1"
-main.children[2].className = "asset2"
-main.children[3].className = "asset3"
-main.children[4].className = "asset4"
+// main.children[1].className = "asset1"
+// main.children[2].className = "asset2"
+// main.children[3].className = "asset3"
+// main.children[4].className = "asset4"
 
 console.log(main.children);
 
