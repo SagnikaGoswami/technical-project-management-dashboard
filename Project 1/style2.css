@@ -402,8 +402,20 @@ main .title{
     width: 100%;
     background-color: black;
     border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+main .title .iButton{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid green; */
+    width: 22px;
+height: 22px;
+margin-right: 14px;
+}
 
 /* main.children[i].style.height = "47%"
     main.children[i].style.width = "47%"

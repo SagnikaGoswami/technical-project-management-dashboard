@@ -10,28 +10,21 @@ for(let i=0; i<4; i++)
 
 main.innerHTML = htmlString
 
-// for(let i=0; i<4; i++)
-// {
-//     main.children[i].style.height = "47%"
-//     main.children[i].style.width = "47%"
-//     main.children[i].style.backgroundColor = "#FDFDFD"
-//     main.children[i].style.border = "2px solid red"
-// }
-
 console.log(main.children);
-// const title = document.createElement("div")
-// console.log(title)
-// title.className = "title"
-// const iButton = document.querySelector(".iButton")
 
 for(let i=0; i<4; i++)
 {
     const title = document.createElement("div")
     title.className = "title"
+    const iButton = document.createElement("img")
+    iButton.className = "iButton"
     main.children[i].className = "asset"
     console.log(main.children[i])
     main.children[i].appendChild(title)
+    title.appendChild(iButton)
+    iButton.src = "assets/i-button.svg"
 }
+
 
 // main.children[0].appendChild(title)
 // main.children[1].appendChild(title)
