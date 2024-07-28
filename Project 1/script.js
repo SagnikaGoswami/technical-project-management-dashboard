@@ -1,0 +1,1 @@
+let asset1 = document.createElement("div");
