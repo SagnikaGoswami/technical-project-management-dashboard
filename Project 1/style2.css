@@ -369,6 +369,7 @@ left: 1366px; */
 main {
     position: absolute;
     border: 2px solid black;
+    height: 1160px;
     width: calc(100% - 379px);
     margin: auto;
     top: 397px;
@@ -377,4 +378,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+main .title{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
 }
