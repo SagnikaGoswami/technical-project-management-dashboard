@@ -38,20 +38,28 @@
 
 let http = new XMLHttpRequest();
 
-http.open('get', 'project.json', true);
+http.open('get', 'products.json', true);
 
 http.send();
 
 http.onload = function(){
     if(this.readyState == 4 && this.status == 200){
-        let project = JSON.parse(this.responseText);
+        let products = JSON.parse(this.responseText);
 
         let output = "";
 
-        for(let item of project){
+        for(let item of products){
             output += `
                 <div class="products">
-            `
+                    <img src="${item.image}" alt="${item.image}">
+                    <p class="title">${item.title}</p>
+                    <p class="description">${item.description}</p>
+                    <p class="price">
+                        <span>${item.price}</span>
+                        <span>&euro;</span>
+                    </p>
+
+            `;
         }
     }
 }

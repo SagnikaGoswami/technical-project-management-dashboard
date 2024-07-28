@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <style>
+        #dataDisplay{
+            height: 40%;
+            width: 40%;
+            border: 2px solid blue;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="dataDisplay"></div>
+
+    <% for (let i=0; i < courses.length; i++) { %>
+        <ul>
+            <li><b>Course name:</b>
+                <%= courses[i].name %>
+            </li>
+            <li><b>Course Category:</b>
+                <%= courses[i].category %>
+            </li>
+            <li><b>Topics:</b>
+                <ul>
+                    <% for (let j=0; j < courses[i].topics.length; j++) { %>
+                        <li>
+                            <%= courses[i].topics[j] %>
+                        </li>
+                    <% } %>
+                </ul>
+            </li>
+        </ul>
+    <% } %>
+</div>
+
+</body>
+<script src="sample2.js"></script>
+</html>
