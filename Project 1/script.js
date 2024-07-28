@@ -10,33 +10,33 @@ for(let i=0; i<4; i++)
 
 main.innerHTML = htmlString
 
-let htmlString2 = ""
-// const title = document.querySelector('.title')
+// for(let i=0; i<4; i++)
+// {
+//     main.children[i].style.height = "47%"
+//     main.children[i].style.width = "47%"
+//     main.children[i].style.backgroundColor = "#FDFDFD"
+//     main.children[i].style.border = "2px solid red"
+// }
+
+console.log(main.children);
+// const title = document.createElement("div")
+// console.log(title)
+// title.className = "title"
+// const iButton = document.querySelector(".iButton")
 
 for(let i=0; i<4; i++)
 {
-    main.children[i].style.height = "47%"
-    main.children[i].style.width = "47%"
-    main.children[i].style.backgroundColor = "#FDFDFD"
-    main.children[i].style.border = "2px solid red"
-    // main.childre[i].className = "assets"
+    const title = document.createElement("div")
+    title.className = "title"
+    main.children[i].className = "asset"
+    console.log(main.children[i])
+    main.children[i].appendChild(title)
 }
 
-console.log(main.children);
-
-for(let i=0; i<4; i++)
-{
-    htmlString2 += "<div></div>"
-}
+// main.children[0].appendChild(title)
+// main.children[1].appendChild(title)
+// main.children[2].appendChild(title)
+// main.children[3].appendChild(title)
 
 
-
-// title.style.backgroundColor = "aqua"
-
-// main.children[1].className = "asset1"
-// main.children[2].className = "asset2"
-// main.children[3].className = "asset3"
-// main.children[4].className = "asset4"
-
-console.log(main.children);
 

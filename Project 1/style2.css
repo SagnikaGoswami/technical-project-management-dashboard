@@ -374,14 +374,38 @@ main {
     margin: auto;
     top: 397px;
     left: 214px;
-    border-radius: 15px 0px 0px 0px;
+    border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-main .title{
+/* main .title{
     background-color: aqua;
     height: 100px;
     width: 100px;
+} */
+
+
+
+.asset{
+    height: 47%;
+    width: 47%;
+    border: 2px solid yellow;
+    background-color: var(--left-panel-color);
+    border-radius: 15px;
 }
+
+
+main .title{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+/* main.children[i].style.height = "47%"
+    main.children[i].style.width = "47%"
+    main.children[i].style.backgroundColor = "#FDFDFD"
+    main.children[i].style.border = "2px solid red" */
