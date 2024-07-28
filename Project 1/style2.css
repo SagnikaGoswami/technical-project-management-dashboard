@@ -364,3 +364,7 @@ main .right .ox1 .notice-board span {
     letter-spacing: 0.02em;
     text-align: left;
 }
+
+main .asset-containers{
+    background-color: pink;
+}
