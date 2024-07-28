@@ -1,29 +1,29 @@
-const main = document.querySelector('main')
-console.log(main)
+// const main = document.querySelector('main')
+// console.log(main)
 
-let htmlString = ""
+// let htmlString = ""
+// for(let i=0; i<4; i++)
+// {
+//     htmlString += "<div></div>"
+// }
 
-for(let i=0; i<4; i++)
-{
-    htmlString += "<div></div>"
-}
+// main.innerHTML = htmlString
 
-main.innerHTML = htmlString
+// console.log(main.children);
 
-console.log(main.children);
+// for(let i=0; i<4; i++)
+// {
+//     const title = document.createElement("div")
+//     title.className = "title"
+//     const iButton = document.createElement("img")
+//     iButton.className = "iButton"
+//     main.children[i].className = "asset"
+//     console.log(main.children[i])
+//     main.children[i].appendChild(title)
+//     title.appendChild(iButton)
+//     iButton.src = "assets/i-button.svg"
+// }
 
-for(let i=0; i<4; i++)
-{
-    const title = document.createElement("div")
-    title.className = "title"
-    const iButton = document.createElement("img")
-    iButton.className = "iButton"
-    main.children[i].className = "asset"
-    console.log(main.children[i])
-    main.children[i].appendChild(title)
-    title.appendChild(iButton)
-    iButton.src = "assets/i-button.svg"
-}
 
 
 // main.children[0].appendChild(title)
@@ -32,4 +32,27 @@ for(let i=0; i<4; i++)
 // main.children[3].appendChild(title)
 
 
+
+
+// Task 2 => JSON File
+
+let http = new XMLHttpRequest();
+
+http.open('get', 'project.json', true);
+
+http.send();
+
+http.onload = function(){
+    if(this.readyState == 4 && this.status == 200){
+        let project = JSON.parse(this.responseText);
+
+        let output = "";
+
+        for(let item of project){
+            output += `
+                <div class="products">
+            `
+        }
+    }
+}
 
