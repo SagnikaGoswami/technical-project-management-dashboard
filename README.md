@@ -33,6 +33,8 @@ The primary project involved building the frontend interface of a Technical Proj
 - `products.json` – Sample product data for JSON practice.
 - `assets/` – Images and icons used in the interface.
 
-## Project Status
+## Repository Status
 
-This is an early-stage learning repository containing dashboard UI experiments and JavaScript practice exercises. It is preserved as a record of my frontend development learning and is not a complete, production-ready application.
+This repository is archived and preserved as a record of my early frontend development learning and practical experience from July 2024.
+
+It contains dashboard UI experiments and JavaScript practice exercises developed while exploring core web development concepts. The project is not actively maintained, but the source code remains publicly available for reference.
